@@ -1,30 +1,29 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
+  <!-- <div id="nav">
+    <router-link to="/">Home</router-link>|
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view />-->
+
+
+  <!-- head menu -->
+  <head-web></head-web>
+  <!-- <nav class="flex text-gray-100 bg-indigo-800">
+    <div class="py-3 w-full font-semibold text-center text-xl uppercase">Car Shop</div>
+    <div class="flex w-full">
+      <span class="p-2 px-auto">
+        <input
+          v-model="input"
+          placeholder="Please enter a search"
+          class="p-2 bg-white rounded w-full border-blue-300"
+        />
+      </span>
+      <span class="p-2 px-auto">
+        <button class="bg-red-600 font-semibold w-20 rounded-md">
+          <p class="py-2">Search</p>
+        </button>
+      </span>
+    </div>
+  </nav> -->
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>

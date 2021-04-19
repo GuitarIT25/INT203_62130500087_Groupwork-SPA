@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "brand": "Tesla",
+      "model": "Model X",
+      "price": "$91,190",
+      "description": "Based on the brand's iconic Model S sedan, the 2021 Tesla Model X SUV wows with its top-hinged rear doors and impresses with its long-range battery capacity. The Model X's electric motors provide on-demand all-wheel drive and performance-car acceleration. Handling is surprisingly nimble for an SUV of this size, too. ",
+      "img": ""
+    },
+    {
+      "id": 1,
+      "brand": "Tesla",
+      "model": "Model S",
+      "price": "$81,190",
+      "description": "Tesla's Model S sedan was the first mass-market car to prove that electric vehicles could be fun-to-drive, eco-friendly, viable as everyday transportation, and even useable for long trips. The Model S, which earns a spot on our Editors' Choice list, does all that even better for 2021. ",
+      "img": ""
+    },
+    {
+      "brand": "ggg",
+      "model": "ggg",
+      "price": "ggg",
+      "description": "ggg",
+      "id": 2
+    }
+  ]
+}
